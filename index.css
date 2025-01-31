@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(253, 228, 253);
+} 
+
+.container1-5 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 100px;
+    margin-bottom: 0;
+}
+
+.container6-10 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px 100px;
+}
+
+.container11-12 {
+    display: flex;
+    justify-content: center;
+}
+
+.container13-14 {
+    display: flex;
+    justify-content: center;
+}
+
+.container15-19 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px 100px;
+}
+
+.container20-24 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px 100px;
+}
+
+.container25-26 {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 225px;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card.c11 {
+    margin-right: 30px;
+}
+
+.card.c13, .c14 {
+    margin: 25px 15px;
+    margin-bottom: 0;
+}
+
+.card.c25 {
+    margin-right: 30px;
+    margin-bottom: 200px;
+}
+
+.greyone {
+    width: 110px;
+    height: 110px;
+    background-color: rgb(200, 200, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+}
+
+.Square {
+    width: 110px;
+    height: 110px;
+    background-color: #b58be8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transition-duration: 0.5s;
+    z-index: 2;
+}
+
+.s1:hover {
+    transform: rotate(45deg);
+    opacity: 0.8;
+} 
+
+.s2:hover {
+    transform: scaleY(0.7);
+    opacity: 0.8;
+}
+
+.s3:hover {
+    transform: scaleX(0.7);
+    opacity: 0.8;
+}
+
+.s4:hover {
+    transform: scale(2);
+    opacity: 0.8;
+}
+
+.s5:hover {
+    transform: scaleX(2);
+    opacity: 0.8;
+}
+
+.s6:hover {
+    transform: scaleY(2);
+    opacity: 0.8;
+}
+
+.s7:hover {
+    transform: skew(45deg);
+    opacity: 0.8;
+}
+
+.s8:hover {
+    transform: skewY(45deg);
+    opacity: 0.8;
+}
+
+.s9:hover {
+    transform: translate(50px, 20px);
+    opacity: 0.8;
+}
+
+.s10:hover {
+    transform: translate(50px);
+    opacity: 0.8;
+}
+
+.s11:hover {
+    transform: translateY(50px);
+    opacity: 0.8;
+}
+
+.s12:hover {
+    transform: skewY(45deg) scale(2) translateX(20px);
+    transform-origin: center bottom;
+    opacity: 0.8;
+}
+
+.s13:hover {
+    transform: perspective(100px) rotateX(40deg);
+    opacity: 0.8;
+}
+
+.s14:hover {
+    transform: perspective(100px) rotateY(40deg);
+    opacity: 0.8;
+}
+
+.s15:hover {
+    transform: rotate(45deg);
+    transform-origin: right top;
+    opacity: 0.8;
+}
+
+.s16:hover {
+    transform: rotate(45deg);
+    transform-origin: left bottom;
+    opacity: 0.8;
+}
+
+.s17:hover {
+    transform: perspective(100px) rotateX(20deg);
+    transform-origin: center bottom;
+    opacity: 0.8;
+}
+
+.s18:hover {
+    transform: perspective(250px) rotateX(60deg);
+    transform-origin: center top;
+    opacity: 0.8;
+}
+
+.s19:hover {
+    transform: perspective(100px) rotateY(20deg);
+    transform-origin: center left;
+    opacity: 0.8;
+}
+
+.s20:hover {
+    transform: perspective(250px) rotateY(60deg);
+    transform-origin: center right;
+    opacity: 0.8;
+}
+
+.s21:hover {
+    transform: scale(2);
+    transform-origin: top right;
+    opacity: 0.8;
+}
+
+.s22:hover {
+    transform: scale(2);
+    transform-origin: bottom left;
+    opacity: 0.8;
+}
+
+.s23:hover {
+    transform: scaleX(2);
+    transform-origin: center right;
+    opacity: 0.8;
+}
+
+.s24:hover {
+    transform: scaleX(2);
+    transform-origin: center left;
+    opacity: 0.8;
+}
+
+.s25:hover {
+    transform: scaleY(2);
+    transform-origin: center top;
+    opacity: 0.8;
+}
+
+.s26:hover {
+    transform: scaleY(2);
+    transform-origin: center bottom;
+    opacity: 0.8;
+}
